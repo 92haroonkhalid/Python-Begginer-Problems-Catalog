@@ -17,3 +17,21 @@ print(x)
 # Check type of user input
 x = input("Enter number : ")
 print(type(x))
+
+# Perform arithmetic operations
+a = 3
+b = 8
+print(a+b)
+print(a-b)
+print(a*b)
+
+# Calculate area of a rectangle
+length = 10
+width = 6
+print("Area of rectangle is : ", length*width)
+
+# Calculate simple interest
+princple_amount = 500
+interest = 200
+interest_rate = 6
+print("Simple Interest is : ", (princple_amount*interest*interest_rate)/100)
